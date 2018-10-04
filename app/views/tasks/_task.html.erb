@@ -1,0 +1,14 @@
+<p>
+  <strong>Name:</strong>
+  <%= link_to_unless_current task.name, task %>
+</p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= task.priority %>
+</p>
+
+<p>
+  <strong>Due date:</strong>
+  <%= task.due_date %>
+</p>
